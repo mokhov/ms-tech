@@ -1,0 +1,28 @@
+.b-invite__inner
+{
+    background: url(b-invite__inner.png) repeat-x;
+
+    zoom: 1;
+}
+
+.b-invite
+{
+    position: relative;
+}
+
+.b-invite__content
+{
+    zoom: 1;
+}
+
+* html .b-invite__inner
+{
+    background: none;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = 'true', startColorstr = #a6b7dfff, endColorstr = #a6e5f3ff, GradientType = 0) !important;
+}
+
+.b-invite__inner__background
+{
+    display: none;
+}

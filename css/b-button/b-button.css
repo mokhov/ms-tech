@@ -1,0 +1,57 @@
+.b-button
+{
+    position: relative;
+    z-index: 1;
+
+    display: -moz-inline-box;
+    display: inline-block;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+.b-button__background
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.b-button_register,
+.b-button_register .b-button__background
+{
+    width: 211px;
+    height: 62px;
+}
+
+.b-button_register .b-button__background
+{
+    height: 124px;
+}
+
+.b-button_register
+{
+    font: 3em/54px Arial;
+    
+    color: #fff;
+
+    text-decoration: none;
+}
+
+.b-button_register .b-button__background
+{
+    background: url(b-button_register.png) no-repeat;
+}
+
+a.b-button_register:hover
+{
+    word-spacing: 0;
+
+    cursor: pointer;
+}
+
+a.b-button_register:hover .b-button__background
+{
+    top: -62px;
+}

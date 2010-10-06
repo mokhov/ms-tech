@@ -1,0 +1,21 @@
+.b-partners
+{
+    margin-top: 5em;
+    padding-left: 1px;
+}
+
+.b-partners__col
+{
+    float: left;
+}
+
+.b-partners__col_left
+{
+    width: 60%;
+    padding-right: 10%;
+}
+
+.b-partners__col_right
+{
+    width: 30%;
+}

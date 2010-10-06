@@ -1,0 +1,25 @@
+.b-col
+{
+    position: relative;
+    z-index: 10;
+
+    float: left;
+    padding-bottom: 20px;
+}
+
+.b-col_left
+{
+    width: 620px;
+    padding-right: 100px;
+}
+
+.b-col_right
+{
+    width: 280px;
+}
+
+.b-col_clear
+{
+    float: none;
+    clear: both;
+}

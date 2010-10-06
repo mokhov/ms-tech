@@ -1,0 +1,81 @@
+.b-invite
+{
+    margin: 0 -100px 5em -35px;
+    width: 696px;
+}
+
+.b-invite__inner
+{
+    position: relative;
+
+    padding: 0 20px;
+}
+
+.b-invite__top
+{
+    height: 20px;
+
+    background: url(b-invite__top.png) no-repeat;
+}
+
+.b-invite__bottom
+{
+    height: 20px;
+
+    background: url(b-invite__bottom.png) no-repeat;
+}
+
+.b-invite__inner__background
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+    width: 100%;
+    height: 100%;
+}
+
+.b-invite__player
+{
+    float: left;
+}
+
+/* Содержимое блока приглашения (begin) */ /**/
+    .b-invite__content
+    {
+        padding: 20px 20px 0 40px;
+    
+        overflow: hidden;
+    }
+
+    .b-invite__content p
+    {
+        font: 1.6em/1.125 Arial;
+
+        margin-bottom: 1em;
+    }
+
+    .b-invite__content strong
+    {
+        font-weight: bold;
+    }
+
+    .b-invite__content .b-button_register
+    {
+        margin-left: -18px;
+    }
+/* Содержимое блока приглашения (end) */ /**/
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .b-invite__inner
+    {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(183, 223, 255, 0.65)), color-stop(1, rgba(229, 243, 255, 0.65)));
+    }
+
+    .b-invite__inner__background
+    {
+        display: none;
+    }
+}

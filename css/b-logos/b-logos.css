@@ -1,0 +1,11 @@
+.b-logos
+{
+    display: none;
+}
+
+.b-logos__item
+{
+    position: absolute;
+
+    z-index: -1;
+}

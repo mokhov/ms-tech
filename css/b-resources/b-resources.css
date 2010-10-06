@@ -1,0 +1,56 @@
+.b-resources
+{
+    position: relative;
+    margin-left: -13px;
+}
+
+.b-resources__table
+{
+    width: 100%;
+}
+.b-resources__col_content
+{
+    position: relative;
+
+    width: 31%;
+
+    vertical-align: top;
+}
+
+.b-resources__col_gap
+{
+    width: 3%;
+}
+
+.b-resources__content
+{
+    display: block;
+    height: 170px;
+
+    padding: 22px 12px 12px;
+    text-decoration: none;
+
+    border: 2px solid #e5e5e5;
+
+    border-radius: 12px;
+/* Gecko (Firefox 3.6+) */
+    -moz-border-radius: 12px;
+/* WebKit (Safari/Chrome) */
+    -webkit-border-radius: 12px;
+}
+
+a.b-resources__content:hover
+{
+    background: #e5e5e5;
+
+    cursor: pointer;
+}
+
+.b-resources__paragraph
+{
+    font: 1.3em/1.3 Arial;
+    
+    display: block;
+
+    color: #000;
+}

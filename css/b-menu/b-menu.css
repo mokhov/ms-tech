@@ -1,0 +1,30 @@
+.b-menu
+{
+    margin-left: -40px;
+    
+    white-space: nowrap;
+}
+
+.b-menu__item
+{
+    display: inline;
+    
+    margin: 0 40px;
+}
+
+.b-menu__item__link
+{
+    font: 2em Arial;
+    color: #7795ae;
+}
+
+.b-menu__item__link__inner
+{
+    color: #000;
+}
+
+a.b-menu__item__link:hover,
+a.b-menu__item__link:hover .b-menu__item__link__inner
+{
+    color: #7d7d7d !important;
+}

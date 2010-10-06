@@ -1,0 +1,42 @@
+.b-event
+{
+    position: relative;
+
+    margin: 20px 0;
+    padding: 20px 150px 0 0;
+}
+
+.b-event__name
+{
+    font: bold 2em Arial;
+
+    margin-bottom: 0.5em;
+}
+
+.b-event__info
+{
+    font: 1.6em/1.25 Arial;
+}
+
+.b-event__description
+{
+    font: 1.3em/1.3 Arial;
+}
+
+.b-event__image
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.b-event_online .b-event__image
+{
+    top: 8px;
+    right: 20px;
+}
+
+.b-event_contest .b-event__image
+{
+    top: 16px;
+}

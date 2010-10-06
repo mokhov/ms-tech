@@ -1,0 +1,46 @@
+.b-students
+{
+    position: absolute;
+}
+
+.b-students_1
+{
+    left: 50%;
+    top: 200px;
+    z-index: 5;
+
+
+    width: 485px;
+    height: 594px;
+    margin-left: -500px;
+
+}
+
+.b-students_1 .b-students__image
+{
+    width: 485px;
+    height: 594px;
+
+    background: url(b-students_1.png) no-repeat;
+}
+
+.b-students_2
+{
+    left: 50%;
+    top: 280px;
+    z-index: 5;
+
+
+    width: 103px;
+    height: 185px;
+    margin-left: 250px;
+
+}
+
+.b-students_2 .b-students__image
+{
+    width: 103px;
+    height: 185px;
+
+    background: url(b-students_2.png) no-repeat;
+}

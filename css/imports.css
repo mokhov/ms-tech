@@ -1,0 +1,33 @@
+@import url(clear.css);
+
+/* blocks (begin) */ /**/
+    @import url(b-block-title/b-block-title.css);
+    @import url(b-body/b-body.css);
+    @import url(b-button/b-button.css);
+
+    @import url(b-clear/b-clear.css);
+    @import url(b-col/b-col.css);
+    @import url(b-content/b-content.css);
+
+    @import url(b-event/b-event.css);
+
+    @import url(b-head/b-head.css);
+    @import url(b-head-ms/b-head-ms.css);
+    @import url(b-head-search/b-head-search.css);
+
+    @import url(b-invite/b-invite.css);
+
+    @import url(b-logos/b-logos.css);
+
+    @import url(b-menu/b-menu.css);
+    @import url(b-ms-footer/b-ms-footer.css);
+
+    @import url(b-page/b-page.css);
+    @import url(b-partners/b-partners.css);
+    @import url(b-pseudo-link/b-pseudo-link.css);
+
+    @import url(b-resources/b-resources.css);
+    @import url(b-resources-logo/b-resources-logo.css);
+
+    @import url(b-students/b-students.css);
+/* blocks (end) */ /**/

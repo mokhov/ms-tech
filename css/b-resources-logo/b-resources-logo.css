@@ -1,0 +1,63 @@
+.b-resources-logo
+{
+    height: 6em;
+
+    display: block;
+}
+
+.b-resources-logo__microsoft,
+.b-resources-logo__name
+{
+    display: block;
+}
+
+.b-resources-logo_dreamspark
+{
+    color: #003399;
+}
+
+.b-resources-logo_dreamspark .b-resources-logo__microsoft
+{
+    font: 1.7em "Segoe UI", "Myriad Pro", "Arial";
+}
+
+.b-resources-logo_dreamspark .b-resources-logo__name
+{
+    font: 2.4em "Segoe UI", "Myriad Pro", "Arial";
+}
+
+
+
+.b-resources-logo_student-territory
+{
+    color: #000;
+}
+
+.b-resources-logo_student-territory .b-resources-logo__microsoft
+{
+    font: 2.4em "Segoe UI", "Myriad Pro", "Arial";
+}
+
+.b-resources-logo_student-territory .b-resources-logo__name
+{
+    font: 1.4em "Segoe UI", "Myriad Pro", "Arial";
+}
+
+
+.b-resources-logo_student-news
+{
+    color: #000;
+}
+
+.b-resources-logo_student-news
+{
+    position: relative;
+    top: -12px;
+}
+
+.b-resources-logo_student-news .b-resources-logo__name
+{
+    font: 1em "Segoe UI", "Myriad Pro", "Arial";
+
+    margin-top: 0.5em;
+}

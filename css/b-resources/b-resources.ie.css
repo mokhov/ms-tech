@@ -1,0 +1,57 @@
+.b-resources
+{
+    zoom: 1;
+}
+
+* html .b-resources__table
+{
+    width: 97%;
+}
+
+* html .b-resources__content
+{
+    height: 190px;
+}
+
+.b-resources__corner
+    {
+        position: absolute;
+
+        width: 12px;
+        height: 12px;
+
+        background: url(b-resources__corner.gif) no-repeat;
+    }
+
+    .b-resources__corner_tl
+    {
+        top: 0;
+        left: 0;
+
+        background-position: -12px -12px;
+    }
+
+    .b-resources__corner_tr
+    {
+        top: 0;
+        right: 0;
+
+        background-position: 0 -12px;
+    }
+
+    .b-resources__corner_bl
+    {
+        left: 0;
+        bottom: 0;
+
+        background-position: -12px 0;
+    }
+
+    .b-resources__corner_br
+    {
+        bottom: 0;
+
+        right: 0;
+
+        background-position: 0 0;
+    }

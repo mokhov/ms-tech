@@ -1,0 +1,40 @@
+html
+{
+    font-size: 100%;
+}
+
+.b-body
+{
+    font-size: 62.5%;
+
+    background: url(b-body.png) repeat-x;
+}
+
+.b-body__background
+{
+    position: absolute;
+    left: 0;
+
+    width: 100%;
+    height: 1000px;
+
+    overflow: hidden;
+}
+
+.b-body__background__inner
+{
+    position: relative;
+
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.b-body__background__inner__i
+{
+    position: absolute;
+    width: 1738px;
+    left: -324px;
+    height: 561px;
+
+    background: url(b-body__background.jpg) 0 0 no-repeat;
+}

@@ -1,0 +1,66 @@
+.b-head-ms
+{
+    position: relative;
+
+    height: 84px;
+}
+
+.b-head-ms_right
+{
+    margin-left: auto;
+    width: 300px;
+}
+
+.b-head-ms-search {
+	//zoom: 1;
+	//float: right;
+}
+
+.b-head-ms_logo {
+	position: absolute;
+	left: 0;
+    top: 33px;
+}
+
+.b-head-ms_bottom {
+	margin-top: 40px;
+}
+
+.b-head-ms h1 {
+	font: italic 4em "Segoe UI", "Trebuchet MS", Arial;
+	color: #fff;
+}
+
+.b-head-ms_links {
+	font-family: "Segoe UI", Tahoma, Arial;
+	font-size: 1.1em;
+	padding: 6px 0 24px 0;
+	color: #098cde;
+	}
+	.b-head-ms_links a {
+		text-decoration: none;
+		color: #098cde;
+		position: relative;
+		}
+	.b-head-ms_links a:hover {
+		text-decoration: underline;
+		}
+	.b-head-ms_links ul {
+		float: right;
+		}
+		.b-head-ms_links ul li {
+			display: inline;
+			list-style-type: none;
+			padding: 0 3px 0 6px;
+			border-left: 1px solid #000;
+			}
+			.b-head-ms_links ul li strong {
+				margin-right: 3px;
+				font-weight: bold;
+				}
+		.b-head-ms_links ul li:first-child,
+		.b-head-ms_links ul li.first-child
+		{
+			border-left: none;
+			padding-left: 0;
+			}

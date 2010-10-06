@@ -1,0 +1,44 @@
+.b-head
+{
+    height: 460px;
+}
+
+.b-head__title
+{
+    position: relative;
+
+    height: 7em;
+    padding-right: 200px;
+}
+
+.b-head__title__name
+{
+    font: 4.1em "Segoe UI", "Myriad Pro", Arial;
+
+    display: inline;
+    
+    color: #fff;
+    vertical-align: baseline;
+}
+
+.b-head__title__date
+{
+    /* Фиксируем размер в пикселах, чтобы в ИЕ при ресайзе не расползалось */ /**/
+    font: bold italic 22px "Segoe UI", "Myriad Pro", Arial;
+
+    position: absolute;
+    right: 0;
+    top: 16px;
+
+    width: 190px;
+
+    vertical-align: baseline;
+    text-align: center;
+
+    color: #fff;
+}
+
+.b-head__title__date__inner
+{
+
+}

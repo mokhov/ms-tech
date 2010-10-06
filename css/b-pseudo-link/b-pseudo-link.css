@@ -1,0 +1,12 @@
+.b-pseudo-link
+{
+    border-bottom: 1px dashed;
+
+    cursor: pointer;
+    color: #0893c8;
+}
+
+.b-pseudo-link:hover
+{
+    color: #3caeda;
+}
