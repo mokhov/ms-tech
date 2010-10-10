@@ -9,7 +9,7 @@
 {
     font: 2em Arial;
 
-    margin-bottom: 1em;
+    margin-bottom: 31px;
 }
 
 .b-content p
@@ -22,4 +22,21 @@
 .b-content_organizators p
 {
     margin-bottom: 2em;
+}
+
+.b-partners .logos img {
+  margin:0 43px 32px 0;
+}
+ .b-partners .logos .c { margin-right: 0; }
+ 
+ .b-content h1
+{
+    font: 2.4em Arial; color: #2488d5;
+    margin-bottom: 20px;
+}
+
+.b-content li {
+  list-style-type: none; list-style-image: none;
+  background: url(/img/li.gif) 0 6px no-repeat;
+  padding:0 0 0 15px; margin: 0 0 0 -15px;
 }

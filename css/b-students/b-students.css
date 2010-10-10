@@ -1,6 +1,6 @@
 .b-students
 {
-    position: absolute;
+  position: absolute; top: 0; left: 0;
 }
 
 .b-students_1
@@ -44,3 +44,17 @@
 
     background: url(b-students_2.png) no-repeat;
 }
+
+.b-students_girl {
+  z-index: 5;
+  margin: 0 0 0 0;
+  display: none;
+}
+.b-students_girl .b-students__image { width: 178px; height: 461px; background: url(girl.png) no-repeat; }
+
+.b-students_guy {}
+.b-students_guy .b-students__image { width: 173px; height: 464px; background: url(guy.png) no-repeat; }
+
+.b-students_khr {}
+.b-students_khr .b-students__image { width: 246px; height: 502px; background: url(khr.png) no-repeat; }
+

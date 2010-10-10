@@ -37,6 +37,7 @@
     -moz-border-radius: 12px;
 /* WebKit (Safari/Chrome) */
     -webkit-border-radius: 12px;
+    -khtml-border-radius: 12px;
 }
 
 a.b-resources__content:hover

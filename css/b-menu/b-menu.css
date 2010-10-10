@@ -7,15 +7,18 @@
 
 .b-menu__item
 {
-    display: inline;
+    display: block;
+    float: left;
     
     margin: 0 40px;
 }
 
 .b-menu__item__link
 {
-    font: 2em Arial;
-    color: #7795ae;
+    font: 2em Arial; text-align: center;
+    /* color: #7795ae; */ color: #000;
+    display: block;
+    margin: 7px 0 0;
 }
 
 .b-menu__item__link__inner
@@ -28,3 +31,11 @@ a.b-menu__item__link:hover .b-menu__item__link__inner
 {
     color: #7d7d7d !important;
 }
+
+.b-menu .resources { width: 215px; height: 41px; }
+.b-menu .question { width: 365px; height: 44px; }
+.b-menu .programm { width: 135px; height: 41px; }
+
+.b-menu .resources.active { background: url(/img/menu_item2.png) 0 0 no-repeat;}
+.b-menu .question.active { background: url(/img/menu_item1.png) 0 0 no-repeat;}
+.b-menu .programm.active { background: url(/img/menu_item.png) 0 0 no-repeat; }
