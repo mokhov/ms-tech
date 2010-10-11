@@ -58,3 +58,69 @@
 .b-students_khr {}
 .b-students_khr .b-students__image { width: 246px; height: 502px; background: url(khr.png) no-repeat; }
 
+.b-students__image_4
+{
+    position: absolute;
+    z-index: 4;
+
+    left: 50%;
+    top: 284px;
+
+    width: 63px;
+    height: 196px;
+
+    margin-left: -400px;
+
+    background: url(b-students_1_4.png) no-repeat;
+}
+
+.b-students__image_3
+{
+    position: absolute;
+    z-index: 4;
+
+    left: 50%;
+    top: 227px;
+
+    width: 107px;
+    height: 283px;
+
+    margin-left: -200px;
+
+    background: url(b-students_1_3.png) no-repeat;
+}
+
+
+
+.b-students__image_2
+{
+    position: absolute;
+    z-index: 4;
+
+    left: 50%;
+    top: 192px;
+
+    width: 349px;
+    height: 452px;
+
+    margin-left: -350px;
+
+    background: url(b-students_1_2.png) no-repeat;
+}
+
+.b-students__image_1
+{
+    position: absolute;
+    z-index: 4;
+
+    left: 50%;
+    top: 190px;
+
+    width: 177px;
+    height: 599px;
+
+    margin-left: -250px;
+
+    background: url(b-students_1_1.png) no-repeat;
+}
+

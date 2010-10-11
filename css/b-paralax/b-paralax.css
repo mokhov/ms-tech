@@ -1,0 +1,39 @@
+.b-paralax
+{
+    position: absolute;
+
+    width: 100%;
+    min-width: 1000px;
+    height: 1500px;
+
+    overflow: hidden;
+}
+.b-paralax__background
+{
+    position: absolute;
+}
+
+.b-paralax__background_6
+{
+    position: absolute;
+    left: 50%;
+
+    margin-left: -700px;
+    width: 1365px;
+    height: 441px;
+
+    background: url(b-paralax__background-6.png) no-repeat;
+}
+
+.b-paralax__background_5
+{
+    position: absolute;
+    top: 154px;
+    left: 50%;
+
+    margin-left: -700px;
+    width: 1624px;
+    height: 441px;
+
+    background: url(b-paralax__background-5.png) no-repeat;
+}
