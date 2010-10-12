@@ -1,5 +1,7 @@
 .b-paralax
 {
+    top: 0;
+    left: 0;
     position: absolute;
 
     width: 100%;
@@ -8,6 +10,7 @@
 
     overflow: hidden;
 }
+
 .b-paralax__background
 {
     position: absolute;

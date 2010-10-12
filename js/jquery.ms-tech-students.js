@@ -108,7 +108,7 @@ $(function(){
 
             /*if ($.browser.msie)
             {*/
-                var pix = percentage * center * 2 / 100;
+                var pix = percentage * 500 / 100;
 
                 $('.b-paralax__background_6').css('left', (center + pix / 160) + "px");
                 $('.b-paralax__background_5').css('left', (center - pix / 160) + "px");
