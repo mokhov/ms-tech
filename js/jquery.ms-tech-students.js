@@ -105,13 +105,28 @@ $(function(){
 
             var percentage = (mousePositionDiff / center) * 100;
 
-            $('.b-paralax__background_6').css('left', (50 + percentage / 80) + "%");
-            $('.b-paralax__background_5').css('left', (50 - percentage / 80) + "%");
-            $('.b-paralax__background_4_1').css('left', (50 - percentage / 60) + "%");
-            $('.b-paralax__background_4_2').css('left', (50 + percentage / 60) + "%");
-            $('.b-paralax__background_3').css('left', (50 - percentage / 40) + "%");
-            $('.b-paralax__background_2').css('left', (50 - percentage / 30) + "%");
-            $('.b-paralax__background_1').css('left', (50 - percentage / 20) + "%");
+
+            /*if ($.browser.msie)
+            {*/
+                var pix = percentage * center * 2 / 100;
+
+                $('.b-paralax__background_6').css('left', (center + pix / 80) + "px");
+                $('.b-paralax__background_5').css('left', (center - pix / 80) + "px");
+                $('.b-paralax__background_4_1').css('left', (center - pix / 60) + "px");
+                $('.b-paralax__background_4_2').css('left', (center + pix / 60) + "px");
+                $('.b-paralax__background_3').css('left', (center - pix / 40) + "px");
+                $('.b-paralax__background_2').css('left', (center- pix / 30) + "px");
+                $('.b-paralax__background_1').css('left', (center - pix / 20) + "px");
+           /* }
+            else {
+                $('.b-paralax__background_6').css('left', (50 + percentage / 80) + "%");
+                $('.b-paralax__background_5').css('left', (50 - percentage / 80) + "%");
+                $('.b-paralax__background_4_1').css('left', (50 - percentage / 60) + "%");
+                $('.b-paralax__background_4_2').css('left', (50 + percentage / 60) + "%");
+                $('.b-paralax__background_3').css('left', (50 - percentage / 40) + "%");
+                $('.b-paralax__background_2').css('left', (50 - percentage / 30) + "%");
+                $('.b-paralax__background_1').css('left', (50 - percentage / 20) + "%");
+            }*/
         }
         else
         {
