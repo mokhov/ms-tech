@@ -110,13 +110,13 @@ $(function(){
             {*/
                 var pix = percentage * center * 2 / 100;
 
-                $('.b-paralax__background_6').css('left', (center + pix / 80) + "px");
-                $('.b-paralax__background_5').css('left', (center - pix / 80) + "px");
-                $('.b-paralax__background_4_1').css('left', (center - pix / 60) + "px");
-                $('.b-paralax__background_4_2').css('left', (center + pix / 60) + "px");
-                $('.b-paralax__background_3').css('left', (center - pix / 40) + "px");
-                $('.b-paralax__background_2').css('left', (center- pix / 30) + "px");
-                $('.b-paralax__background_1').css('left', (center - pix / 20) + "px");
+                $('.b-paralax__background_6').css('left', (center + pix / 160) + "px");
+                $('.b-paralax__background_5').css('left', (center - pix / 160) + "px");
+                $('.b-paralax__background_4_1').css('left', (center - pix / 120) + "px");
+                $('.b-paralax__background_4_2').css('left', (center + pix / 120) + "px");
+                $('.b-paralax__background_3').css('left', (center - pix / 80) + "px");
+                $('.b-paralax__background_2').css('left', (center- pix / 60) + "px");
+                $('.b-paralax__background_1').css('left', (center - pix / 40) + "px");
            /* }
             else {
                 $('.b-paralax__background_6').css('left', (50 + percentage / 80) + "%");
